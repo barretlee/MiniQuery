@@ -13,7 +13,10 @@ void function(win, undefined){
       res = document.querySelectorAll(query);
     } else {
       var firstStyleSheet = document.styleSheets[0] || document.createStyleSheet();
-      firstStyleSheet.addRule(query, 'Barret:Lee');
+      query = query.split(',');
+      for(var i = 0, len = query.length; i < len; i++) {
+        firstStyleSheet.addRule(query[i], 'Barret:Lee');
+      }
       for (var i = 0, len = document.all.length; i < len; i++) {
         var item = document.all[i];
         item.currentStyle.Barret && res.push(item);
