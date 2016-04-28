@@ -1,0 +1,23 @@
+{
+  "name": "mini-query",
+  "version": "0.0.1",
+  "description": "A mini element query selector.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barretlee/MiniQuery.git"
+  },
+  "keywords": [
+    "query",
+    "selector"
+  ],
+  "author": "Barret Lee <barret.china@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/barretlee/MiniQuery/issues"
+  },
+  "homepage": "https://github.com/barretlee/MiniQuery#readme"
+}
