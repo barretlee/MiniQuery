@@ -27,6 +27,11 @@ function $(query) {
 };
 ```
 
+## Install 
+
+- `npm install mini-query`
+- `git clone https://github.com/barretlee/MiniQuery`
+
 ## Usage
 
 ```html
